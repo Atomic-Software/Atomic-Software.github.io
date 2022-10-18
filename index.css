@@ -1,0 +1,47 @@
+body {
+    background-color:rgb(45, 48, 49);
+    margin: 0px;
+}
+.icon {
+    max-height: 40px;
+    float:left;
+    padding-top: 4px;
+    padding-right: 5px;
+}
+.titlebar {
+    background-color: rgb(24, 26, 27);
+    position: sticky;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: 1px 1px 12px 0;
+}
+.titlebar-title {
+    color: rgb(230, 230, 230);
+    width: 325px;
+    margin: auto;
+}
+.titlebar-Tabs {
+    color: rgb(230, 230, 230);
+    width: 650px;
+    display: flex;
+}
+.titlebar-Menu {
+    color: rgb(230, 230, 230);
+    width: 650px;
+}
+.Flexy {
+    display: flex;
+}
+.H1Software {
+    margin: 0px;
+}
+.Tabs-Home {
+    margin: auto;
+}
+.Tabs {
+    color: rgb(230, 230, 230);
+    padding: 0px;
+    margin:0px;
+    padding-right: 30px;
+
+}

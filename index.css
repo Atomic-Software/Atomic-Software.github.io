@@ -7,26 +7,28 @@ body {
     float:left;
     padding-top: 0px;
     padding-right: 5px;
+    text-align: center;
 }
 .titlebar {
     background-color: rgb(24, 26, 27);
     position: sticky;
     margin: 0px;
-    padding: 0px;
+    padding: 5px;
     box-shadow: 1px 1px 12px 0;
 }
 .titlebar-title {
-    color: rgb(230, 230, 230);
+    color: rgb(200, 200, 200);
     width: 350px;
     margin: auto;
+    transition: color 0.15s;
 }
 .titlebar-Tabs {
-    color: rgb(230, 230, 230);
+    color: rgb(200, 200, 200);
     width: 650px;
     display: flex;
 }
 .titlebar-Menu {
-    color: rgb(230, 230, 230);
+    color: rgb(200, 200, 200);
     width: 650px;
     display: flex;
 }
@@ -37,13 +39,48 @@ body {
     margin: 0px;
     padding: 0px;
 }
-.Tabs-Home {
-    margin: auto;
-}
 .Tabs {
-    color: rgb(230, 230, 230);
+    color: rgb(200, 200, 200);
     padding: 0px;
-    margin:0px;
-    padding-right: 30px;
-
+    margin: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    transition: color 0.15s;
+}
+.Tabs-Buttons {
+    padding: 20px;
+    font-size: 21px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.Tabs-Buttons:link {
+    color: inherit;
+    text-decoration: none;
+}
+.Tabs-Buttons:visited {
+    color: inherit;
+    text-decoration: none;
+}
+.Tabs-Buttons:hover {
+    color: inherit;
+    text-decoration: none;
+}
+.Tabs-Buttons:active {
+    color: inherit;
+    text-decoration: none;
+}
+.Tabs-Home:hover {
+    color: rgb(0, 77, 170);
+}
+.Tabs-Home:hover {
+    color: rgb(0, 77, 170);
+}
+.Tabs-AboutMe:hover {
+    color: rgb(0, 77, 170);
+}
+.Tabs-Downloads:hover {
+    color: rgb(0, 77, 170);
+}
+.Tabs-Extra:hover {
+    color: rgb(0, 77, 170);
 }

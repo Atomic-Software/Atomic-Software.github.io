@@ -5,7 +5,7 @@ body {
 .icon {
     max-height: 40px;
     float:left;
-    padding-top: 4px;
+    padding-top: 0px;
     padding-right: 5px;
 }
 .titlebar {
@@ -28,12 +28,14 @@ body {
 .titlebar-Menu {
     color: rgb(230, 230, 230);
     width: 650px;
+    display: flex;
 }
 .Flexy {
     display: flex;
 }
 .H1Software {
     margin: 0px;
+    padding: 0px;
 }
 .Tabs-Home {
     margin: auto;

@@ -35,10 +35,6 @@ body {
 .Flexy {
     display: flex;
 }
-.H1Software {
-    margin: 0px;
-    padding: 0px;
-}
 .Tabs {
     color: rgb(200, 200, 200);
     padding: 0px;
@@ -46,12 +42,40 @@ body {
     margin-top: auto;
     margin-bottom: auto;
     transition: color 0.15s;
+    white-space: nowrap;
 }
-.Tabs-Buttons {
-    padding: 20px;
-    font-size: 21px;
-    font-weight: bold;
-    cursor: pointer;
+@media screen and (max-width: 1500px) {
+    .H1Software {
+        margin: 0px;
+        padding: 0px;
+        white-space: nowrap;
+        display: none;
+    }
+    .Tabs-Buttons {
+        padding: 10px;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .titlebar-Menu {
+        display: none;
+    }
+    .titlebar-title{
+        margin: none;
+    }
+}
+@media screen and (min-width: 1500px) {
+    .H1Software {
+        margin: 0px;
+        padding: 0px;
+        white-space: nowrap;
+    }
+    .Tabs-Buttons {
+        padding: 20px;
+        font-size: 21px;
+        font-weight: bold;
+        cursor: pointer;
+    }
 }
 .Tabs-Buttons:link {
     color: inherit;

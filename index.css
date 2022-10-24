@@ -15,6 +15,7 @@ body {
     margin: auto;
     padding: 5px;
     box-shadow: 1px 1px 12px 0;
+    margin-bottom: 0px;
 }
 .titlebar-title {
     color: rgb(200, 200, 200);
@@ -39,33 +40,7 @@ body {
     transition: color 0.15s;
     white-space: nowrap;
 }
-@media screen and (max-width: 400px){
-    .H1Software {
-        margin: 0px;
-        padding: 0px;
-        white-space: nowrap;
-        display: none;
-    }
-    .Tabs-Buttons {
-        padding: 1.5vw;
-        font-size: 15px;
-        font-weight: bold;
-        cursor: pointer;
-    }
-    .titlebar-Menu {
-        display: none;
-    }
-    .titlebar-title{
-        margin: 0px;
-    }
-    .titlebar-Tabs {
-        color: rgb(200, 200, 200);
-        width: 650px;
-        display: flex;
-        justify-content: right;
-    }
-}
-@media screen and (max-width: 1500px) and (min-width: 400px){
+@media screen and (max-width: 1500px){
     .H1Software {
         margin: 0px;
         padding: 0px;
